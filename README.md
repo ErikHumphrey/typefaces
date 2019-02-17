@@ -11,9 +11,9 @@ You can do this by double-clicking on the file.
 You'll be prompted to entire a filename. This must be a BMP image in the same folder.
 For example, try one of:
 
-	jojo.bmp
-	cuhacking small.bmp
-	stallman.bmp
+* jojo.bmp
+* cuhacking small.bmp
+* tux.bmp
 	
 You'll then be prompted whether you have a dark terminal.
 Enter "y" if your command line has bright text on a dark background, like black.
@@ -25,10 +25,10 @@ characters that would represent brighter pixels last.
 
 Try one of the following palette strings (without quotes):
 
-	"-O"
-	" .^OW"
-	" ./^QWZZ"
-	"$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/|()1{}[]?-_+~<>i!lI;:,^ "
+* "-O"
+* " .^OW"
+* " ./^QWZZ"
+* "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/|()1{}[]?-_+~<>i!lI;:,^ "
 	
 For example, " .^OW" means that the darkest pixels will be represented by a space (" "), 
 and the four other characters will be used to represent four other shades, up to brightest 
@@ -42,4 +42,6 @@ Reduce the font size of your terminal emulator, zoom out, or increase the window
 to see the full details of the art. Otherwise, just scroll.
 
 The program will keep prompting you for another image to convert to ASCII art until you 
-close the program. Experiment with other BMP images and other palette strings!
+close the program. Experiment with other BMP images and other palette strings! Try the 
+included image "moai.bmp", which has over 1,000,000 pixels. The ASCII art is still 
+generated quite fast!
