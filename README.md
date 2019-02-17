@@ -3,7 +3,7 @@
 TypeFaces is an ASCII art generator powered by Haskell. Haskell handles large amounts of data and recursion very well. This program takes advantage of that. It's very fast!
 
 
-== Usage instructions ==
+## Usage instructions
 
 In the folder where you extracted typefaces.exe and the BMP image files, open typefaces.exe.
 You can do this by double-clicking on the file.
